@@ -11,7 +11,7 @@ queremos usar SAML para este propósito.
 Describe brevemente cómo resolverías este caso y que datos crees que sería necesario
 pedir al departamente técnico de este hipotetico cliente.
 
-## Respuesta:
+#### Respuesta:
 Desde cliente creamos un archivo SAML con las credenciales de usuario (usuario y contraseña).
 El archivo los enviamos al sevidor donde se autentifica y envia una respuesta tambien SAML al cliente
 
@@ -39,6 +39,6 @@ Plantea una solución a este problema y comenta brevemente que cambios crees que
 deberíamos hacer en nuestra aplicación de gestión, si crees que debemos hacer
 alguno.
 
-## Respuesta:
+### Respuesta:
 Creamos un endpoint publico, en el cual los usuarios que se dan de alta, reciben un rol especifico.
 En la app privada, se puede crear un middleware para limitar las acciones del nuevo rol
