@@ -46,7 +46,7 @@ solo el último registro, el cual se supone que contiene los datos válidos.
 Diseña una consulta que borre solo los datos que son erroneos. Adicionalmente,
 ¿Crees que la tabla tiene algún error de diseño?. De ser así, ¿Cómo la mejorarías?
 
-## Respuesta:
+#### Respuesta:
 Para realizar un borrado de los datos duplicados, vamos a usa un CTE:
 ```sql
 WITH cte AS (
@@ -110,7 +110,7 @@ Describe brevemente, como optimizarías la consulta, que cosas consideras que
 deberían cambiarse y que indices añadirías a las tablas que intervienen en la
 misma (si consideras que habría que añadir alguno).
 
-## Respuesta:
+#### Respuesta:
 
 Antes de realizar la query se recomienda lanzar los siguiente indices:
 ```sql
